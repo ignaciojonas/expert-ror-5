@@ -1,20 +1,23 @@
-
 sarah: #valid customer
   first_name: Sarah
   last_name: Jones
   username: sarky
+  email: sarah@gmail.com
 
 thomas: #must not clash with Trevor
   first_name: Thomas
   last_name: Smith
   username: smithy
+  email: trev@gmail.com
 
 yasmine: #invalid customer
   first_name: Yasmine
   last_name:
   username: lotus231
+  email: yazzer@gmail.com
 
 trevor: #must not clash with Thomas
   first_name: Trevor
   last_name: Smith
   username: smithy
+  email: smithy@gmail.com
