@@ -1,11 +1,20 @@
-# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  first_name: MyString
-  last_name: MyString
-  username: MyString
+sarah: #valid customer
+  first_name: Sarah
+  last_name: Jones
+  username: sarky
 
-two:
-  first_name: MyString
-  last_name: MyString
-  username: MyString
+thomas: #must not clash with Trevor
+  first_name: Thomas
+  last_name: Smith
+  username: smithy
+
+yasmine: #invalid customer
+  first_name: Yasmine
+  last_name:
+  username: lotus231
+
+trevor: #must not clash with Thomas
+  first_name: Trevor
+  last_name: Smith
+  username: smithy
