@@ -10,5 +10,4 @@ class Customer < ApplicationRecord
   has_many :issues
   has_many :reviewed_products, through: :reviews, source: :product
   has_many :problem_products, through: :issues, source: :product
-
 end
